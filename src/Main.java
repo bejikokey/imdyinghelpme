@@ -10,5 +10,9 @@ public class Main {
         System.out.println("Год издания: " + herBook.getYearOfBook() +  ", Название книни: " + herBook.bookName + ", Автор книги: " + herBook.getAuthor().name+ " " + herBook.getAuthor().surname);
     herBook.setYear(2036);
         System.out.println("Год издания: " + herBook.getYearOfBook() +  ", Название книни: " + herBook.bookName + ", Автор книги: " + herBook.getAuthor().name+ " " + herBook.getAuthor().surname);
+        System.out.println(javaBook.hashCode());
+        System.out.println(herBook.hashCode());
+        System.out.println(author1.equals(author2));
+        System.out.println(javaBook.equals(herBook));
     }
 }
